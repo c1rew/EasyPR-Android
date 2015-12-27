@@ -1,0 +1,276 @@
+test.o: test.cpp /home/zhengql/install/EasyPR/jni/include/easypr.h \
+ /home/zhengql/install/EasyPR/jni/include/easypr/plate_recognize.h \
+ /home/zhengql/install/EasyPR/jni/include/easypr/prep.h \
+ /home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/opencv.hpp \
+ /home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/core/core_c.h \
+ /home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/core/types_c.h \
+ /opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/assert.h \
+ /opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/cdefs.h \
+ /opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/cdefs_elf.h \
+ /opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/android/api-level.h \
+ /opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/stdlib.h \
+ /opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/string.h \
+ /opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/malloc.h \
+ /opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/alloca.h \
+ /opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/strings.h \
+ /opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/types.h \
+ /opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/stdint.h \
+ /opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/_types.h \
+ /opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/machine/_types.h \
+ /opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/posix_types.h \
+ /opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/stddef.h \
+ /opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/compiler.h \
+ /opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm/posix_types.h \
+ /opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm/types.h \
+ /opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/types.h \
+ /opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/machine/kernel.h \
+ /opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/sysmacros.h \
+ /opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/memory.h \
+ /opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/math.h \
+ /opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/limits.h \
+ /opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/limits.h \
+ /opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/limits.h \
+ /opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/machine/internal_types.h \
+ /opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/machine/limits.h \
+ /opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/syslimits.h \
+ /opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm/page.h \
+ /home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/core/core.hpp \
+ /home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/core/version.hpp \
+ /opt/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.6/include/algorithm \
+ /opt/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.6/include/cstddef \
+ /opt/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.6/include/complex \
+ /opt/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.6/include/map \
+ /home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/core/operations.hpp \
+ /home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/core/mat.hpp \
+ /home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/flann/miniflann.hpp \
+ /home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/flann/defines.h \
+ /home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/flann/config.h \
+ /home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/imgproc/imgproc_c.h \
+ /home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/imgproc/types_c.h \
+ /home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/imgproc/imgproc.hpp \
+ /home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/photo/photo.hpp \
+ /home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/photo/photo_c.h \
+ /home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/video/video.hpp \
+ /home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/video/tracking.hpp \
+ /home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/video/background_segm.hpp \
+ /opt/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.6/include/list \
+ /home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/features2d/features2d.hpp \
+ /home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/objdetect/objdetect.hpp \
+ /opt/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.6/include/deque \
+ /home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/calib3d/calib3d.hpp \
+ /home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/core/affine.hpp \
+ /home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/ml/ml.hpp \
+ /opt/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream \
+ /home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/highgui/highgui_c.h \
+ /home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/highgui/highgui.hpp \
+ /home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/contrib/contrib.hpp \
+ /home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/contrib/retina.hpp \
+ /opt/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.6/include/valarray \
+ /home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/contrib/openfabmap.hpp \
+ /opt/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.6/include/set \
+ /home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv/cvaux.h \
+ /home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/legacy/legacy.hpp \
+ /home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/legacy/compat.hpp \
+ /home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/legacy/blobtrack.hpp \
+ /home/zhengql/install/EasyPR/jni/include/easypr/plate_detect.h \
+ /home/zhengql/install/EasyPR/jni/include/easypr/plate_locate.h \
+ /home/zhengql/install/EasyPR/jni/include/easypr/plate.h \
+ /home/zhengql/install/EasyPR/jni/include/easypr/core_func.h \
+ /home/zhengql/install/EasyPR/jni/include/easypr/core_func.h \
+ /home/zhengql/install/EasyPR/jni/include/easypr/plate_judge.h \
+ /home/zhengql/install/EasyPR/jni/include/easypr/feature.h \
+ /home/zhengql/install/EasyPR/jni/include/easypr/chars_recognise.h \
+ /home/zhengql/install/EasyPR/jni/include/easypr/chars_segment.h \
+ /home/zhengql/install/EasyPR/jni/include/easypr/chars_identify.h \
+ /home/zhengql/install/EasyPR/jni/include/easypr/svm_train.h \
+ /home/zhengql/install/EasyPR/jni/include/easypr/preprocess/mc_data.h \
+ /home/zhengql/install/EasyPR/jni/include/easypr/preprocess/gdts.h \
+ /home/zhengql/install/EasyPR/jni/include/easypr/preprocess/deface.h \
+ /home/zhengql/install/EasyPR/jni/include/easypr/util.h \
+ /home/zhengql/install/EasyPR/jni/include/easypr/api.hpp \
+ /opt/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.6/include/ctime \
+ /opt/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.6/include/fstream
+
+/home/zhengql/install/EasyPR/jni/include/easypr.h:
+
+/home/zhengql/install/EasyPR/jni/include/easypr/plate_recognize.h:
+
+/home/zhengql/install/EasyPR/jni/include/easypr/prep.h:
+
+/home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/opencv.hpp:
+
+/home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/core/core_c.h:
+
+/home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/core/types_c.h:
+
+/opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/assert.h:
+
+/opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/cdefs.h:
+
+/opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/cdefs_elf.h:
+
+/opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/android/api-level.h:
+
+/opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/stdlib.h:
+
+/opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/string.h:
+
+/opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/malloc.h:
+
+/opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/alloca.h:
+
+/opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/strings.h:
+
+/opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/types.h:
+
+/opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/stdint.h:
+
+/opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/_types.h:
+
+/opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/machine/_types.h:
+
+/opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/posix_types.h:
+
+/opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/stddef.h:
+
+/opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/compiler.h:
+
+/opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm/posix_types.h:
+
+/opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm/types.h:
+
+/opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/types.h:
+
+/opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/machine/kernel.h:
+
+/opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/sysmacros.h:
+
+/opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/memory.h:
+
+/opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/math.h:
+
+/opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/limits.h:
+
+/opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/limits.h:
+
+/opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/limits.h:
+
+/opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/machine/internal_types.h:
+
+/opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/machine/limits.h:
+
+/opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/syslimits.h:
+
+/opt/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm/page.h:
+
+/home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/core/core.hpp:
+
+/home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/core/version.hpp:
+
+/opt/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.6/include/algorithm:
+
+/opt/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.6/include/cstddef:
+
+/opt/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.6/include/complex:
+
+/opt/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.6/include/map:
+
+/home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/core/operations.hpp:
+
+/home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/core/mat.hpp:
+
+/home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/flann/miniflann.hpp:
+
+/home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/flann/defines.h:
+
+/home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/flann/config.h:
+
+/home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/imgproc/imgproc_c.h:
+
+/home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/imgproc/types_c.h:
+
+/home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/imgproc/imgproc.hpp:
+
+/home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/photo/photo.hpp:
+
+/home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/photo/photo_c.h:
+
+/home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/video/video.hpp:
+
+/home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/video/tracking.hpp:
+
+/home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/video/background_segm.hpp:
+
+/opt/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.6/include/list:
+
+/home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/features2d/features2d.hpp:
+
+/home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/objdetect/objdetect.hpp:
+
+/opt/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.6/include/deque:
+
+/home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/calib3d/calib3d.hpp:
+
+/home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/core/affine.hpp:
+
+/home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/ml/ml.hpp:
+
+/opt/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:
+
+/home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/highgui/highgui_c.h:
+
+/home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/highgui/highgui.hpp:
+
+/home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/contrib/contrib.hpp:
+
+/home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/contrib/retina.hpp:
+
+/opt/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.6/include/valarray:
+
+/home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/contrib/openfabmap.hpp:
+
+/opt/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.6/include/set:
+
+/home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv/cvaux.h:
+
+/home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/legacy/legacy.hpp:
+
+/home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/legacy/compat.hpp:
+
+/home/zhengql/install/EasyPR/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/legacy/blobtrack.hpp:
+
+/home/zhengql/install/EasyPR/jni/include/easypr/plate_detect.h:
+
+/home/zhengql/install/EasyPR/jni/include/easypr/plate_locate.h:
+
+/home/zhengql/install/EasyPR/jni/include/easypr/plate.h:
+
+/home/zhengql/install/EasyPR/jni/include/easypr/core_func.h:
+
+/home/zhengql/install/EasyPR/jni/include/easypr/core_func.h:
+
+/home/zhengql/install/EasyPR/jni/include/easypr/plate_judge.h:
+
+/home/zhengql/install/EasyPR/jni/include/easypr/feature.h:
+
+/home/zhengql/install/EasyPR/jni/include/easypr/chars_recognise.h:
+
+/home/zhengql/install/EasyPR/jni/include/easypr/chars_segment.h:
+
+/home/zhengql/install/EasyPR/jni/include/easypr/chars_identify.h:
+
+/home/zhengql/install/EasyPR/jni/include/easypr/svm_train.h:
+
+/home/zhengql/install/EasyPR/jni/include/easypr/preprocess/mc_data.h:
+
+/home/zhengql/install/EasyPR/jni/include/easypr/preprocess/gdts.h:
+
+/home/zhengql/install/EasyPR/jni/include/easypr/preprocess/deface.h:
+
+/home/zhengql/install/EasyPR/jni/include/easypr/util.h:
+
+/home/zhengql/install/EasyPR/jni/include/easypr/api.hpp:
+
+/opt/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.6/include/ctime:
+
+/opt/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.6/include/fstream:
